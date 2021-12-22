@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",	// 指定生成哪个模块系统代码: "None"， "CommonJS"， "AMD"， "System"， "UMD"， "ES6"或 "ES2015"
+    "declaration": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "strict": true,
+    "outDir":"./dist",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "index.tsx"
+  ],
+  "exclude": [
+  ]
+}

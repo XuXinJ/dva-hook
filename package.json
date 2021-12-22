@@ -1,0 +1,29 @@
+{
+  "name": "dva-hook",
+  "version": "2.0.0",
+  "description": "dva 使用hook的方式修改state,effects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "dva-hook",
+    "dva",
+    "dva-hook是一个使用hook方式修改state,effects的插件",
+    "react"
+  ],
+  "author": "xuxinjiang",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
+}
