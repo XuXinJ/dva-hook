@@ -8,16 +8,16 @@
     "build": "tsc --build tsconfig.json",
     "prepublishOnly": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "keywords": [
     "dva-hook",
     "dva",
     "dva-hook是一个使用hook方式修改state,effects的插件",
     "react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XuXinJ/dva-hook"
+  },
   "author": "xuxinjiang",
   "license": "ISC",
   "devDependencies": {
